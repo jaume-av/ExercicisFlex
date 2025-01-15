@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.portafoli {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.projecte {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #87af87;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projecte img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 200px; /* Altura fija */
+    object-fit: cover; /* Mantiene proporciones y recorta el exceso */
+    border-radius: 8px; /* Mantiene las esquinas redondeadas */
+    margin-bottom: 15px;
+    display: block; /* Elimina espacios adicionales en el diseño */
+}
+
+
+h3 {
+    color: #3498db;
+}
+
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.boto {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boto:hover {
+    background-color: #c0392b;
+}

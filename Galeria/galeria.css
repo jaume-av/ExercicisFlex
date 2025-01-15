@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+
+h1{
+    text-align: center;
+    color: #3498db;
+
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.seccio {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+.imatge {
+    height: 150px;
+    background-color: rgba(32, 141, 104, 0.4);
+    margin: 10px;
+}
+
+.imatge img{
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa toda la altura del contenedor */
+    object-fit: cover; /* Mantiene las proporciones y recorta el exceso */
+    display: block; /* Elimina el espacio debajo de las imágenes */
+}
